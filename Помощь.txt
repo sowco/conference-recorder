@@ -1,0 +1,10 @@
+🔍 Как проверить устройства:
+bash:
+ffmpeg -list_devices true -f dshow -i dummy
+
+Создайте файл bat для запуская одним кликом
+
+@echo off
+cd "C:\"путь к скрипту"\conference recorder"
+"C:\"путь к папке"\.venv\Scripts\python.exe" "C:\"путь к скрипту"\conference recorder\main.py"
+pause
