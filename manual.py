@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 DS_API_KEY = os.getenv("DeepSeek_API")
+#DS_API_KEY = None
 
 def main():
     folder_path = input("Введите путь к папке с файлами: ").strip()
